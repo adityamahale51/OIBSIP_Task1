@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cake Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .cake-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .cake-card {
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        .cake-card h2 {
+            margin-top: 0;
+        }
+
+        .cake-card p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Types of Cakes</h1>
+
+        <div class="cake-types">
+            <div class="cake-card">
+                <h2>Chocolate Cake</h2>
+                <p>A rich and indulgent cake made with layers of moist chocolate sponge and decadent chocolate ganache.</p>
+            </div>
+
+            <div class="cake-card">
+                <h2>Vanilla Cake</h2>
+                <p>A classic cake with a light and fluffy texture, infused with the sweet aroma of vanilla and topped with buttercream frosting.</p>
+            </div>
+
+            <div class="cake-card">
+                <h2>Red Velvet Cake</h2>
+                <p>A strikingly beautiful cake with a velvety texture and a hint of cocoa, layered with cream cheese frosting.</p>
+            </div>
+
+            <div class="cake-card">
+                <h2>Carrot Cake</h2>
+                <p>A moist and flavorful cake made with grated carrots, spices, and a cream cheese frosting, perfect for carrot lovers.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

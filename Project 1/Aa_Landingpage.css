@@ -1,0 +1,126 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: pink;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+        width: 100%;
+        background-color: tomato;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.15% 3%;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+    }
+    .container nav img{
+        height: 4%;
+        width: 5%;
+        margin-left: 0.75%;
+    }
+    .container nav span{
+        letter-spacing: 0.04em;
+        font-size: 2,10em;
+        font-weight: bold;
+        color:red;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 8%;
+    }
+    ul li{
+        list-style: none;
+        padding: 2%;
+    }
+    ul li a{
+        text-decoration: none;
+        color: aqua;
+        font-size: 1.50em;
+    }
+    ul li a:hover{
+        color: black;
+    }
+    .button{
+        letter-spacing: 0.1em;
+        font-size: 1.40em;
+        padding: 0.70%;
+        background-color: pink;
+        color: white;
+        border-radius: 5%;
+
+    }
+    button:hover{
+        background-color: greenyellow;
+
+    }
+    .content h1{
+        font-weight: bolder;
+        word-spacing: 0.11em;
+        letter-spacing: 0.03em;
+        margin-top: 3.75%;
+        margin-left: 12%;
+        margin-bottom: 2%;
+        width: 35%;
+        height: 10%;
+        font-size: 4em;
+        color: red;
+    }
+    .content span{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(9, 186, 48);
+    }
+    .content p{
+        font-weight: lighter;
+        margin-left: 12%;
+        margin-bottom: 3%;
+        font-size: 1.25em;
+        color: purple;
+        word-spacing: 0.17em;
+        letter-spacing: 01.em;
+    }
+    .btn1{
+        margin-left: 12%;
+        font-size: 1.40em;
+        padding: 0.75%;
+        letter-spacing: 0.1em;
+        background-color: springgreen;
+        color: white;
+        border-top-left-radius: 1.50em;
+        border-bottom-left-radius: 1.50em;
+        border-top-right-radius: 1.50em;
+        border-bottom-right-radius: 1.50em;
+
+    }
+    .btn1:hover{
+        background-color: violet;
+    }
+    .btn2{
+        margin-left: 3%;
+        font-size: 1.40em;
+        padding: 0.75%;
+        letter-spacing: 0.1em;
+        background-color: springgreen;
+        color: white;
+        border-top-left-radius: 1.50em;
+        border-bottom-left-radius: 1.50em;
+        border-top-right-radius: 1.50em;
+        border-bottom-right-radius: 1.50em;
+
+    }
+    .btn1:hover{
+        background-color: violet;
+    }
+    .content img{
+        height: 55%;
+        width: 35%;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+    }
